@@ -46,6 +46,8 @@ Route::prefix('tasks')
 
         Route::get('{id}/edit', 'edit')->name('edit');
 
+        Route::get('create', 'create')->name('create');
+
     });
 
 // Ditambahkan
